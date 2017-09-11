@@ -1,1 +1,1 @@
-# odoo_tips
+# Módulos - Odoo tips
