@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <template id="report_invoice_document_inherit" inherit_id="account.report_invoice_document">
+            <p t-if="o.comment" position="before">
+				<div style="background-color: #F3B491; font-size: 16px; width: 100%">
+                	<b>SON: <span t-esc="to_word(o.amount_total).upper()"/> 
+                	<t t-if="o.currency_id.long_name"><span t-esc="o.currency_id.long_name.upper()"/></t></b>
+				</div>
+            </p>
+        </template>
+    </data>
+</odoo>

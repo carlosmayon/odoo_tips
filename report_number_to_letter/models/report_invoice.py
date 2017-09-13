@@ -3,10 +3,10 @@
 # License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl.html).
 
 import number_to_letter
-from odoo import fields, models, api
+from odoo import models, api
 
 
-class ParticularReport(models.AbstractModel):
+class AccountReportInvoice(models.AbstractModel):
     _name = 'report.account.report_invoice'
 
     @api.model
