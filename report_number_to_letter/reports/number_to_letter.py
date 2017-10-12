@@ -1,6 +1,7 @@
-# flake8:noqa
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
+# flake8: noqa
+
 from itertools import ifilter
 
 UNIDADES = (
