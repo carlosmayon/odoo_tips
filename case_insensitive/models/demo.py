@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # Copyright 2017, OdooTips
 
-from openerp import models, fields, api
+from odoo import models, fields, api
 from odoo.exceptions import Warning
 
 
